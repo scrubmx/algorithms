@@ -1,0 +1,25 @@
+{
+    "name": "scrubmx/algorithms",
+    "description": "Algorithm and data structure lessons",
+    "keywords": ["algorithm", "data", "structure", "php"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.4",
+        "phpunit/phpunit": "4.8.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "DataStructure\\": "src/DataStructure"
+        },
+        "files": [
+            "src/sorting_algorithms/bubble_sort.php",
+            "src/sorting_algorithms/merge_sort.php",
+            "src/tree_traversal/breadth_first_traversal.php",
+            "src/tree_traversal/depth_first_traversal.php"
+        ]
+    }
+}

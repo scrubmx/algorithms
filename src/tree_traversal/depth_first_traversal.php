@@ -19,6 +19,9 @@
  *      - Traverse the left subtree by recursively calling the post-order function.
  *      - Traverse the right subtree by recursively calling the post-order function.
  *      - Display the data part of root element (or current element).
+ *
+ * @package scrubmx/algorithms
+ * @author Jorge González <scrub.mx@gmail.com>
  */
 
 use DataStructure\BinaryTree\Tree;

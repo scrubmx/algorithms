@@ -3,7 +3,8 @@
  * This level-by-level traversal is called a breadth-first traversal
  * It explores the neighbor nodes first, before moving to the next level.
  *
- * @param \DataStructure\BinaryTree\Tree $tree
+ * @package scrubmx/algorithms
+ * @author Jorge González <scrub.mx@gmail.com>
  */
 
 use DataStructure\BinaryTree\Tree;

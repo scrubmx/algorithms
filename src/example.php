@@ -23,7 +23,7 @@ array_map([$tree, 'insert'], $items);
                 8  10
 */
 
-echo '==== DEPTH FIRST — IN-ORDER ===='.PHP_EOL;
+echo '==== DEPTH FIRST ===='.PHP_EOL;
 echo depth_first_traversal($tree);
 
 echo '==== BREADTH FIRST ===='.PHP_EOL;

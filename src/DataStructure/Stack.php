@@ -1,4 +1,8 @@
 <?php
+/**
+ * @package scrubmx/algorithms
+ * @author Jorge González <scrub.mx@gmail.com>
+ */
 
 namespace DataStructure;
 

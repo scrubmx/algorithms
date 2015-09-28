@@ -1,11 +1,15 @@
 <?php
-/**
- * @package scrubmx/algorithms
- * @author Jorge González <scrub.mx@gmail.com>
- */
 
 namespace DataStructure;
 
+/**
+ * Class Queue
+ *
+ * @link https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+ *
+ * @package DataStructure
+ * @author Jorge González <scrub.mx@gmail.com>
+ */
 class Queue
 {
     /**

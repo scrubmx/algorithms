@@ -1,13 +1,17 @@
 <?php
-/**
- * @package scrubmx/algorithms
- * @author Jorge González <scrub.mx@gmail.com>
- */
 
 namespace DataStructure\BinaryTree;
 
 use DataStructure\BinaryTree\Node;
 
+/**
+ * Class Tree
+ *
+ * @link https://en.wikipedia.org/wiki/Binary_tree
+ *
+ * @package DataStructure\BinaryTree
+ * @author Jorge González <scrub.mx@gmail.com>
+ */
 class Tree
 {
     /**

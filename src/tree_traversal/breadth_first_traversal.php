@@ -3,7 +3,9 @@
  * This level-by-level traversal is called a breadth-first traversal
  * It explores the neighbor nodes first, before moving to the next level.
  *
- * @package scrubmx/algorithms
+ * @link https://en.wikipedia.org/wiki/Breadth-first_search
+ * @link https://en.wikipedia.org/wiki/Tree_traversal
+ *
  * @author Jorge González <scrub.mx@gmail.com>
  */
 

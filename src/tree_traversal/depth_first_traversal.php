@@ -3,8 +3,6 @@
  * Depth-first traversal.
  * There are three types of depth-first traversal:
  *
- * @see https://en.wikipedia.org/wiki/Tree_traversal
- *
  *  1. PRE-ORDER
  *      - Display the data part of root element (or current element)
  *      - Traverse the left subtree by recursively calling the pre-order function.
@@ -20,7 +18,10 @@
  *      - Traverse the right subtree by recursively calling the post-order function.
  *      - Display the data part of root element (or current element).
  *
- * @package scrubmx/algorithms
+ *
+ * @link https://en.wikipedia.org/wiki/Depth-first_search
+ * @link https://en.wikipedia.org/wiki/Tree_traversal
+ *
  * @author Jorge González <scrub.mx@gmail.com>
  */
 

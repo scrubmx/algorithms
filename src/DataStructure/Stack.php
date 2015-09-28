@@ -1,11 +1,15 @@
 <?php
-/**
- * @package scrubmx/algorithms
- * @author Jorge González <scrub.mx@gmail.com>
- */
 
 namespace DataStructure;
 
+/**
+ * Class Stack
+ *
+ * @link https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+ *
+ * @package DataStructure
+ * @author Jorge González <scrub.mx@gmail.com>
+ */
 class Stack
 {
     /**

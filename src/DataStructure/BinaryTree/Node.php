@@ -1,11 +1,15 @@
 <?php
-/**
- * @package scrubmx/algorithms
- * @author Jorge González <scrub.mx@gmail.com>
- */
 
 namespace DataStructure\BinaryTree;
 
+/**
+ * Class Node
+ *
+ * @link https://en.wikipedia.org/wiki/Node_(computer_science)
+ *
+ * @package DataStructure\BinaryTree
+ * @author Jorge González <scrub.mx@gmail.com>
+ */
 class Node
 {
     public $value;

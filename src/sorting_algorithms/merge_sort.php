@@ -6,7 +6,8 @@
  *  - Divide the unsorted list into n sublists, each containing 1 element.
  *  - Repeatedly merge sublists to produce new sorted sublists until there is only 1 sublist remaining.
  *
- * @package scrubmx/algorithms
+ * @link https://en.wikipedia.org/wiki/Merge_sort
+ *
  * @author Jorge González <scrub.mx@gmail.com>
  */
 

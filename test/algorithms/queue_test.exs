@@ -1,6 +1,8 @@
 defmodule Algorithms.QueueTest do
   use ExUnit.Case
 
+  doctest Algorithms.Queue
+
   alias Algorithms.Queue
 
   test "new/0 creates a new queue" do
@@ -20,10 +22,11 @@ defmodule Algorithms.QueueTest do
   end
 
   test "dequeue/1 removes an item from the back of the queue" do
-    queue = Queue.new()
-    |> Queue.enqueue(1)
-    |> Queue.enqueue(2)
-    |> Queue.enqueue(3)
+    queue =
+      Queue.new()
+      |> Queue.enqueue(1)
+      |> Queue.enqueue(2)
+      |> Queue.enqueue(3)
 
     queue = Queue.dequeue(queue)
     assert queue.items == [3, 2]

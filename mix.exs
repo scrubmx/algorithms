@@ -40,6 +40,9 @@ defmodule Algorithms.MixProject do
       source_ref: "v#{@version}",
       logo: nil,
       source_url: "https://github.com/scrubmx/algorithms",
+      extras: [
+        "README.md"
+      ],
       groups_for_modules: [
         Main: [
           Algorithms

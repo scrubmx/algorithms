@@ -14,21 +14,21 @@ defmodule Algorithms.Queue do
     flowchart LR
       A[Item] -.->|Enqueue| B[Back]
       subgraph Queue
-          B --- C[Item]
-          C --- D[Item]
-          D --- E[Front]
+        B --- C[Item]
+        C --- D[Item]
+        D --- E[Front]
       end
-      E -.-> |Dequeue| F[Item]
+      E -.->|Dequeue| F[Item]
     ```
 
-  ### Time and Space Complexity (Big O Notation)
+  ## Time and Space Complexity
 
-    | Operation     | Average     | Worst Case     |
-    |:-------------:|:-----------:|:--------------:|
-    | Search        |     O(n)    |      O(n)      |
-    | Insert        |     O(1)    |      O(1)      |
-    | Delete        |     O(1)    |      O(1)      |
-    | Space         |     O(n)    |      O(n)      |
+    | Operation     | Average    | Worst Case |
+    |:-------------:|:----------:|:----------:|
+    | Search        |    O(n)    |    O(n)    |
+    | Insert        |    O(1)    |    O(1)    |
+    | Delete        |    O(1)    |    O(1)    |
+    | Space         |    O(n)    |    O(n)    |
 
   """
 
@@ -46,6 +46,7 @@ defmodule Algorithms.Queue do
   @doc ~S"""
   Returns a new queue struct with the given list of items.
 
+  Where the first item in the list is the back of the queue and the last item is the front.
   ## Example
       iex> Algorithms.Queue.new([3, 2, 1])
       %Algorithms.Queue{items: [3, 2, 1]}
@@ -62,7 +63,6 @@ defmodule Algorithms.Queue do
   ## Examples
 
   ### Enqueue items to the queue
-
       iex> queue = Algorithms.Queue.new()
       iex> queue = Algorithms.Queue.enqueue(queue, "A")
       %Algorithms.Queue{items: ["A"]}
@@ -70,7 +70,6 @@ defmodule Algorithms.Queue do
       %Algorithms.Queue{items: ["B", "A"]}
 
   ### Or using the pipe operator
-
       iex> Algorithms.Queue.new()
       iex> |> Algorithms.Queue.enqueue(1)
       iex> |> Algorithms.Queue.enqueue(2)
@@ -86,7 +85,6 @@ defmodule Algorithms.Queue do
   The removal or (**dequeue**) takes ${\displaystyle O(1)}$ when the list ${\displaystyle r}$ is not empty.
 
   ## Example
-
       iex> queue = Algorithms.Queue.new(["B", "A"])
       iex> %Algorithms.Queue{items: ["B", "A"]}
       iex> queue = Algorithms.Queue.dequeue(queue)
